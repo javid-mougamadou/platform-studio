@@ -1,4 +1,4 @@
-import { Header, Hero, Stack, Footer } from './components';
+import { Header, Hero, Features, Stack, Footer } from './components';
 import { useTheme } from './hooks/useTheme';
 import { usePageTracking } from './hooks/useAnalytics';
 import { THEME_GRADIENT_CLASSES } from './constants';
@@ -12,6 +12,7 @@ const App = () => {
       <Header theme={theme} onToggleTheme={toggleTheme} />
       <main className="flex flex-1 flex-col items-center px-4 pt-20 pb-12">
         <Hero theme={theme} />
+        <Features theme={theme} />
         <Stack theme={theme} />
         <Footer theme={theme} />
       </main>
