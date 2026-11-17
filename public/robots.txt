@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://platform-studio.javid-space.cloud/sitemap.xml

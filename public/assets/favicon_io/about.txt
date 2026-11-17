@@ -1,0 +1,6 @@
+This favicon was generated locally with pwa-icon-generator (typographic letter icon, no external web tool).
+
+- Letter: P
+- Font: ABeeZee
+- Background: #0f172a
+- Foreground: #ffffff
