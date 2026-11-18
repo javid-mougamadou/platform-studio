@@ -26,6 +26,16 @@ const Hero = ({ theme }: HeroProps) => {
         <a href={CONTACT_MAILTO_URL} className="btn btn-primary mt-8">
           Contacter
         </a>
+        <div className={`mt-8 flex justify-center gap-8 text-sm ${subtitleColor}`}>
+          <div>
+            <span className={`block text-2xl font-bold ${titleColor}`}>2 500</span>
+            utilisateurs
+          </div>
+          <div>
+            <span className={`block text-2xl font-bold ${titleColor}`}>300</span>
+            actifs
+          </div>
+        </div>
       </div>
     </section>
   );

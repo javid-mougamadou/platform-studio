@@ -11,3 +11,4 @@ pnpm-debug.log*
 
 # Documentation des fonctionnalités (généré localement)
 FEATURES.md
+.claude/screenshots/
